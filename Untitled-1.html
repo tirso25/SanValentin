@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres se mi novia❤️?</title>
+    <link rel="stylesheet" href="Untitled-2.css">
+    <script defer src="https://app.embed.im/snow.js"></script>
+    <script>
+        var tituloOriginal = document.title; // Lo guardamos para restablecerlo más tarde
+        window.onblur = function () { // Si el usuario se va a otro lado...
+            document.title = "Hey, vuelve aquí y dale a 'sí'"; // Cambiamos el título
+        }
+
+        window.onfocus = function () {
+            document.title = tituloOriginal; // Si el usuario vuelve restablecemos el título
+        }
+    </script>
+</head>
+
+<body>
+    <div class="padre">
+        <div class="corazon"></div>
+        <div class="corazon2"></div>
+        <div class="corazon3"></div>
+        <div class="corazon4"></div>
+        <div class="corazon5"></div>
+    </div>
+    <div class="borde">
+        <div class="pregunta">
+            <h1><b>❤️¿Quieres ser mi novia?❤️</h1>
+        </div>
+        <div class="espacio">
+            <h1><b>&nbsp;</h1>
+        </div>
+        <div class="boton">
+            <button type="button" id="si">
+                <h3><b>Sí quiero 😘</b></h3>
+            </button>
+            <button type="button" id="no">
+                <h3><b>No quiero 💔</b></h3>
+            </button>
+        </div>
+    </div>
+    <div id="modal_container" class="modal-container">
+        <div class="modal">
+            <h1>Sabía que dirías que sí😻</h1>
+            <p>
+                😯😯Wow ho-hola...😯😯😯omg dijiste que sí🥺🥺🥺🥺pensé que dirías que no😅😅😅😅es que alguien como tú tan bonita y preciosa😻😻😻 no diría que sí a alguien como yo🥺🥺🥺🥺🥺🥺porque soy muy feo🙈🙈🙈 y las bonitas no le hablan a los feos🥺🥺🥺🥺¿soy horrible cierto?🥺🥺 me voy a quedar solo, nadie me quiere y tú eres muy bonita😻😻 bonita bonita, bonita🥺🥺🥺no merezco que me digas que sí... seguro que tienes muchos chicos detrás y yo doy asco ¿verdad?🥺🥺🥺🥺🥺que preciosa eres, pareces una diosa🥺🥺🥺
+            </p>
+            <button id="close">Cerrar</button>
+        </div>
+    </div>
+    <script src="Untitled-1.js"></script>
+</body>
+
+</html>
