@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>❤️¿Quieres ser mi novia?❤️</title>
     <link rel="stylesheet" href="Untitled-2.css">
-    <script defer src="https://app.embed.im/snow.js"></script>
     <script>
         var tituloOriginal = document.title; // Lo guardamos para restablecerlo más tarde
         window.onblur = function () { // Si el usuario se va a otro lado...
@@ -21,38 +20,77 @@
 </head>
 
 <body>
-    <div class="padre">
-        <div class="corazon"></div>
-        <div class="corazon2"></div>
-        <div class="corazon3"></div>
-        <div class="corazon4"></div>
-        <div class="corazon5"></div>
-    </div>
-    <div class="borde">
-        <div class="pregunta">
-            <h1><b>❤️¿Quieres ser mi novia?❤️</h1>
-        </div>
-        <div class="espacio">
-            <h1><b>&nbsp;</h1>
-        </div>
+    <div class="popup-card">
+
         <div class="boton">
-            <button type="button" id="si">
-                <h3><b>Sí quiero 😘</b></h3>
-            </button>
-            <button type="button" id="no">
-                <h3><b>No quiero 💔</b></h3>
+
+            <button id="close-btn" style="cursor: pointer;width: 100px;margin-right: -5px;
+      margin-top: -4px;">
+
+                <span class="material-symbols-rounded close-icon"> X </span>
+
             </button>
         </div>
+        <p class="mensaj">
+            Para una mejor experiencia activa el modo <b style="color: red;" class="fontnetf">NETFLX</b> y pon la
+            <b>música</b>.
+            Esta ventana <b>no</b> se puede volver a abrir, tendás que <b>refrecasr la página</b>.
+            <br>Disfruta.</br>
+        </p>
+
+        <div class="botton">
+            <button class="butun">
+                <h2><b class="netf" style="color:red;">NETFLIX</b></h2>
+            </button>
+        </div>
+
+        <div class="playpause">
+            <div class="button">
+                <h2><a class="btn" id="nyan-btn" style="color: transparent;"><h3>o</h3>/.</a></h2>
+            </div>
+        </div>
+
     </div>
-    <div id="modal_container" class="modal-container">
-        <div class="modal">
-            <h1>Sabía que dirías que sí😻</h1>
-            <p>
-                😯😯Wow ho-hola...😯😯😯omg dijiste que sí🥺🥺🥺🥺pensé que dirías que no😅😅😅😅es que alguien como tú tan bonita y preciosa😻😻😻 no diría que sí a alguien como yo🥺🥺🥺🥺🥺🥺porque soy muy feo🙈🙈🙈 y las bonitas no le hablan a los feos🥺🥺🥺🥺¿soy horrible cierto?🥺🥺 me voy a quedar solo, nadie me quiere y tú eres muy bonita😻😻 bonita bonita, bonita🥺🥺🥺no merezco que me digas que sí... seguro que tienes muchos chicos detrás y yo doy asco ¿verdad?🥺🥺🥺🥺🥺que preciosa eres, pareces una diosa🥺🥺🥺
-            </p>
-            <button id="close">Cerrar</button>
+    <div class="contenedor">
+            <div class="corazon"></div>
+            <div class="corazon2"></div>
+            <div class="corazon3"></div>
+            <div class="corazon4"></div>
+            <div class="corazon5"></div>
+        <div class="borde">
+            <div class="pregunta">
+                <h1><b>❤️¿Quieres ser mi novia?❤️</h1>
+            </div>
+            <div class="espacio">
+                <h1><b>&nbsp;</h1>
+                <h1><b>&nbsp;</h1>
+                <h1><b>&nbsp;</h1>
+            </div>
+            <button type="button" id="si" onclick="">
+                <h3><b>&nbsp;Sí quiero 😘</b></h3>
+            </button>
+            <button type="button" id="no" onmouseover="">
+                <h3><b>&nbsp;No quiero 💔</b></h3>
+            </button>
+        </div>
+        <div id="modal_container" class="modal-container">
+            <div class="modal">
+                <h1>Sabía que dirías que sí😻</h1>
+                <p>
+                    😯😯Wow ho-hola...😯😯😯omg dijiste que sí🥺🥺🥺🥺pensé que dirías que no😅😅😅😅es que alguien como
+                    tú tan bonita y preciosa😻😻😻 no diría que sí a alguien como yo🥺🥺🥺🥺🥺🥺porque soy muy feo🙈🙈🙈
+                    y las bonitas no le hablan a los feos🥺🥺🥺🥺¿soy horrible cierto?🥺🥺 me voy a quedar solo, nadie
+                    me quiere y tú eres muy bonita😻😻 bonita bonita, bonita🥺🥺🥺no merezco que me digas que sí...
+                    seguro que tienes muchos chicos detrás y yo doy asco ¿verdad?🥺🥺🥺🥺🥺que preciosa eres, pareces
+                    una diosa🥺🥺🥺
+                </p>
+                <button id="close">Cerrar</button>
+            </div>
         </div>
     </div>
+    <audio id="nyan" src="musica.mp3" preload="metadata" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <script src="Untitled-1.js"></script>
 </body>
 
