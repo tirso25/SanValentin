@@ -12,13 +12,17 @@
     }
 
     body {
-      transition: 1s;
+      height: 100vh;
       background-color: #7ec1e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .borde {
-      width: 690px;
+      width: 699px;
       height: 25em;
+      max-width: 690px;
       margin: 0 auto;
       text-align: center;
       background: linear-gradient(#7ec1e0, #7ec1e0) 50% 50%/calc(100% - 26px) calc(100% - 26px) no-repeat,
@@ -45,7 +49,7 @@
 
     .netf {
       font-family: themillon2;
-      max-width: 100%
+      width: 900px;
     }
 
 
@@ -504,81 +508,4 @@
 
     .fontnetf {
       font-family: themillon2;
-    }
-
-    @media screen and (max-width: 840px) {
-      .borde {
-        width: 41rem;
-        height: 25em
-      }
-
-      .popup-card {
-        width: 38rem;
-      }
-
-      .corazon {
-        width: 3em;
-        height: 3em;
-      }
-
-      .corazon2 {
-        width: 1em;
-        height: 1em;
-      }
-
-      .corazon3 {
-        width: 2.4em;
-        height: 2.4em;
-        left: -1em;
-      }
-
-      .corazon4 {
-        width: 2.8em;
-        height: 2.8em;
-        left: 40em;
-      }
-
-      .corazon5 {
-        width: 3em;
-        height: 3em;
-        left: 40em;
-      }
-    }
-
-    @media screen and (max-width: 780px) {
-      .borde {
-        width: 34rem;
-        height: 25em
-      }
-
-      .corazon4 {
-        left: 32em;
-      }
-
-      .corazon5 {
-        left: 32em;
-      }
-    }
-
-    @media screen and (max-width: 666px) {
-      .borde {
-        width: 28rem;
-        height: 25em
-      }
-
-      .corazon4 {
-        left: 27em;
-      }
-
-      .corazon5 {
-        left: 27em;
-      }
-
-      .popup-card {
-        width: 29rem;
-      }
-
-      .mensaj {
-        height: 3px;
-      }
     }
