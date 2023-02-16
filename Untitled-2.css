@@ -1,4 +1,5 @@
-* {
+
+    * {
       padding: 0;
       box-sizing: border-box;
     }
@@ -508,4 +509,58 @@
 
     .fontnetf {
       font-family: themillon2;
+    }
+
+    @media screen and (max-width: 780px) {
+      .borde {
+        width: 34rem;
+        height: 25em
+      }
+
+      .corazon4 {
+        left: 32em;
+      }
+
+      .corazon5 {
+        left: 32em;
+      }
+    }
+/* Tablets */
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  .borde {
+        width: 34rem;
+        height: 25em
+      }
+
+  .corazon4 {
+    left: 32em;
+  }
+
+  .corazon5 {
+    left: 32em;
+  }
+}
+
+/* Mobiles */
+@media screen and (max-width: 480px) {
+  .borde {
+        width: 28rem;
+        height: 25em
+      }
+
+      .corazon4 {
+        left: 27em;
+      }
+
+      .corazon5 {
+        left: 27em;
+      }
+
+      .popup-card {
+        width: 29rem;
+      }
+
+      .mensaj {
+        height: 3px;
+      }
     }
