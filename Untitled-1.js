@@ -106,5 +106,5 @@ document.querySelector('.botton').addEventListener('click', function () {
 
   document.querySelector('body').classList.toggle('background')
 
-})
+});
 
